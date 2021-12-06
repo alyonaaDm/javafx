@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.image.ImageView?>
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="ru.kpfu.itis.controller.MainSceneController"
+            prefHeight="400.0" prefWidth="600.0"
+            style="-fx-background-color: #edb499">
+
+    <children>
+        <Label fx:id="gameLabel" text="memory game" layoutX="400.0" layoutY="82.0" style="-fx-font-family: Nunito ExtraBold; -fx-text-fill: #fff; -fx-font-size: 50px; -fx-font-weight: bold;"/>
+        <Button fx:id="runButton" text="Начать игру" layoutX="523.0" layoutY="14.0" stylesheets="/css/buttons.css" />
+        <ImageView fx:id="player" layoutX="250.0" layoutY="450.0" fitWidth="50.0" fitHeight="50.0"/>
+        <ImageView fx:id="enemy" layoutX="250.0" layoutY="50.0" fitWidth="50.0" fitHeight="50.0"/>
+    </children>
+
+</AnchorPane>
